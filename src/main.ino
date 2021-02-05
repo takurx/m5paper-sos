@@ -42,8 +42,13 @@ void loop()
   lcd.setTextColor(0, 0xFFFFFF);
   lcd.setTextSize(2,2);
 
+  //lcd.setCursor(45,350);
+  //lcd.print("YUKI.N> みえてる？");
+  //https://twitter.com/haruhi1st/status/889460704222343168
   lcd.setCursor(45,350);
-  lcd.print("YUKI.N> みえてる？");
+  lcd.print("YUKI.N> これを読んでいる時、");
+  lcd.setCursor(175,380);
+  lcd.print("わたしはわたしではないだろう。");
   delay(10000);
 }
 
